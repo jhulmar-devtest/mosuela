@@ -68,4 +68,4 @@ This repository is intended as a portfolio demonstration of the project's source
 
 ## Author
 
-Developed as a software development / academic portfolio project.
+Rodanielyn Erincath Abas | Abelardo Babac | Jhulmar Bregonia | Nicole Pasigna.
