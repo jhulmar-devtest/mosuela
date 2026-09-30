@@ -72,3 +72,5 @@ This repository is intended as a portfolio demonstration of the project's source
 - Abelardo Babac - [@babacabelardo03-creator](https://github.com/babacabelardo03-creator)
 - Jhulmar Bregonia - [@jhulmar-devtest](https://github.com/jhulmar-devtest)
 - Nicole Pasigna
+
+Developed with AI assistance
