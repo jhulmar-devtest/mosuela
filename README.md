@@ -68,4 +68,7 @@ This repository is intended as a portfolio demonstration of the project's source
 
 ## Author
 
-Rodanielyn Erincath Abas | Abelardo Babac | Jhulmar Bregonia | Nicole Pasigna.
+- Rodanielyn Erincath Abas
+- Abelardo Babac
+- Jhulmar Bregonia - [@jhulmar-devtest](https://github.com/jhulmar-devtest)
+- Nicole Pasigna
