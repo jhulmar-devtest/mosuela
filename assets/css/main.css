@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* ========================================================================
+   CSS VARIABLES - Design System
+   ======================================================================== */
+
+:root {
+  /* Colors - Brand Palette */
+  --primary: #d00000;
+  --primary-dark: #9d0208;
+  --secondary: #ffba08;
+  --accent: #f48c06;
+
+  /* Colors - Base */
+  --dark: #1a1a1a;
+  --light: #f8f9fa;
+  --white: #ffffff;
+  --muted: #6b7280;
+
+  /* Colors - Sidebar */
+  --sidebar-bg: #1a1d2e;
+  --sidebar-hover: #252942;
+  --sidebar-active: linear-gradient(
+    135deg,
+    var(--primary),
+    var(--primary-dark)
+  );
+  --text-primary: #ffffff;
+  --text-secondary: #a0a3bd;
+  --text-muted: #6e7191;
+
+  /* Colors - Semantic */
+  --error: #b91c1c;
+  --error-bg: #fee2e2;
+  --error-border: #fca5a5;
+  --success: #065f46;
+  --success-bg: #d1fae5;
+  --success-border: #6ee7b7;
+  --warning: #b45309;
+  --warning-bg: #fff0f0;
+  --warning-border: #ffdddd;
+
+  /* Colors - Neutral */
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+
+  /* Spacing */
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 20px;
+  --spacing-xl: 24px;
+  --spacing-2xl: 32px;
+  --spacing-3xl: 40px;
+  --spacing-4xl: 48px;
+  --spacing-5xl: 60px;
+  --spacing-6xl: 80px;
+  --spacing-7xl: 100px;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 15px;
+  --radius-xl: 20px;
+  --radius-2xl: 25px;
+  --radius-full: 30px;
+
+  /* Shadows */
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 15px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-xl: 0 10px 40px rgba(0, 0, 0, 0.15);
+  --shadow-primary-sm: 0 0 0 4px rgba(208, 0, 0, 0.1);
+  --shadow-primary: 0 4px 15px rgba(208, 0, 0, 0.3);
+  --shadow-primary-lg: 0 6px 25px rgba(208, 0, 0, 0.4);
+
+  /* Typography */
+  --font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-base: 0.3s ease;
+  --transition-slow: 0.5s ease;
+
+  /* Layout */
+  --max-width: 1200px;
+  --sidebar-width: 280px;
+}
+
+/* ========================================================================
+   GLOBAL RESET & NORMALIZE
+   ======================================================================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.offset {
+  padding: 20px;
+  padding-left: 300px;
+}
